@@ -1,0 +1,61 @@
+/* Contenedor general de la demo */
+section {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Separador */
+hr {
+    border: none;
+    border-top: 2px solid #eee;
+}
+
+/* Estilo general para cada tuit */
+.tuit {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: transform 0.1s ease;
+}
+
+.tuit:hover {
+    transform: translateY(-2px);
+}
+
+/* Avatar del usuario */
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Contenido del tuit */
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nombre y usuario */
+.contenido strong {
+    font-size: 1rem;
+}
+
+.contenido span {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* Mensaje del tuit */
+.contenido p {
+    margin: 0.25rem 0;
+    font-size: 0.95rem;
+    line-height: 1.3;
+}

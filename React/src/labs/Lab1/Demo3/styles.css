@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: red;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    margin-bottom: 0.5rem;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.card-subtitle {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.card-body {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.card-footer {
+    font-size: 0.85rem;
+    color: #95a5a6;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
