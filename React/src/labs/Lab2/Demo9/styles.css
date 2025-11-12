@@ -1,0 +1,33 @@
+.custom-hook-demo {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+    color: #0070f3;
+}
+
+.error {
+    color: #dc2626;
+}
+
+ul {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background: #0070f3;
+    color: white;
+    font-weight: bold;
+}
