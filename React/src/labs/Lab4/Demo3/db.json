@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Manzana",
+      "price": "1.27"
+    },
+    {
+      "id": "2",
+      "name": "Pan",
+      "price": 0.9
+    },
+    {
+      "id": "ec9c",
+      "name": "Pna",
+      "price": "25"
+    },
+    {
+      "id": "09bc",
+      "name": "Pan bimbo",
+      "price": "120"
+    },
+    {
+      "id": "35f9",
+      "name": "dsaf",
+      "price": "25"
+    },
+    {
+      "id": "ebeb",
+      "name": "sadf",
+      "price": "58"
+    }
+  ]
+}
